@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: 'Montserrat';
+
+}
+
+.container {
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#userName {
+    margin: 10px 0;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#greetBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#greetBtn:hover {
+    background-color: #0056b3;
+}
+
+#greeting {
+    display: none;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#error {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
